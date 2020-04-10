@@ -30,29 +30,42 @@
                     }
                     main > header > nav > a {
                         display: inline-block;
-                        padding: 15px
+                        padding: 15px;
                     }
-               
-               display: inline-block;
-               padding: 15px;
-               }
-        section{
-            display: inline-block;
-            width: 100%;
-            background-color: aquamarine;
-        }   
-            div {
-
-            }
-            img {
-
-            }
+                 main > section {
+                     display: inline-block;
+                     width: 100%;
+                     float: left;
+                 }
+                     main > section > div {
+                         display: inline-block;
+                         width: 40%;
+                         float: left;
+                         margin-top: 20px;
+                     }
+                         main > section > div > h1 {
+                             display: inline-block;
+                             width: 100%;
+                             margin: 0;
+                             font-size: 100px;
+                         }
+                     main > section > div > p {
+                         display: inline-block;
+                         width: 100%;
+                         margin: 0;
+                         font-size: 24px;
+                     }
+                 main > section > img {
+                     display: inline-block;
+                     width: 45%;
+                     float:  right;
+                 }  
     </style>
 </head>
 <body>
     <main>
         <header>
-            <img src="#" alt="Mergaitės logo">
+            <img src="logo.png" alt="Mergaitės logo">
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Tracks</a>
@@ -60,14 +73,13 @@
                 <a href="#">Community</a>
                 <a href="#">Sign in</a>
             </nav>
-        </header>
-        
+        </header>  
         <section>
             <div>
                 <h1>404</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
-            <img src="./img/liudna mergaite.png" alt="Liudna mergaitė">
+            <img src="liūdna mergaite.png" alt="Liudna mergaitė">
         </section>
     </main>
 </body>
